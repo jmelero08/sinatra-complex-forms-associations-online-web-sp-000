@@ -7,6 +7,7 @@ class OwnersController < ApplicationController
 
   get '/owners/new' do 
     erb :'/owners/new'
+    
   end
 
   post '/owners' do 
